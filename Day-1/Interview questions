@@ -1,5 +1,10 @@
 # Interview Questions
 
+What is Cloud? – Interview-ready explanation:
+==============================================
+Cloud (Cloud Computing) means using computing resources over the internet instead of owning physical servers or data centers. These resources include servers, storage, databases, networking, and software, and you pay only for what you use.
+
+
 Q: What is AWS IAM, and why is it important?
 
 A: AWS IAM (Identity and Access Management) is a service provided by Amazon Web Services that helps you control access to your AWS resources. It allows you to manage user identities, permissions, and policies. IAM is important because it enhances security by ensuring that only authorized individuals or entities have access to your AWS resources, helping you enforce the principle of least privilege and maintain a secure environment.
