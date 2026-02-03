@@ -4,6 +4,12 @@
 
 What is EC2, and why is it important?
 
+An EC2 instance is a virtual server in AWS that you can use to run applications, websites, databases, or backend services without buying physical hardware.
+
+Think of it like:
+
+“A computer running in AWS data centers that you can start, stop, resize, and pay only for what you use.”
+
 ```
 - Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud.
 - Access reliable, scalable infrastructure on demand. Scale capacity within minutes with SLA commitment of 99.99% availability.
