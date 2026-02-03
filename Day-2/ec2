@@ -150,3 +150,11 @@ How to Launch an EC2 Instance (Steps):
 - Starting, stopping, and terminating instances.
 - Monitoring instance performance and utilization.
 - Basic troubleshooting and accessing instances using SSH (Secure Shell).
+
+EC2 Security Best Practices:
+==============================
+1.Use IAM Roles, not access keys
+2.Enable Security Groups with least access
+3.Use MFA on AWS account
+4.Encrypt EBS volumes
+5.Disable public IP if not needed
