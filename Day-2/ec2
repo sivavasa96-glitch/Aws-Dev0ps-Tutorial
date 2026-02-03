@@ -132,6 +132,19 @@ Differentiating between On-Demand, Reserved, and Spot instances.
 - Configuring instance details, such as instance type, network settings, and storage options.
 - Understanding security groups and key pairs for securing instances.
 
+How to Launch an EC2 Instance (Steps):
+======================================
+
+1.Open AWS Console → EC2
+2.Click Launch Instance
+3.Choose AMI
+4.Select Instance Type
+5.Configure network (VPC, Subnet)
+6.Add storage
+7.Configure Security Group
+8.Create / select Key Pair
+9.Launch
+
 ## Managing EC2 Instances:
 
 - Starting, stopping, and terminating instances.
