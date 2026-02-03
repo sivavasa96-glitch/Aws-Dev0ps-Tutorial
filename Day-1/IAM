@@ -37,3 +37,6 @@ Policies: IAM policies are JSON documents that define permissions. Policies spec
     }
   ]
 }
+
+“IAM in AWS is used to securely control who can access AWS resources and what actions they can perform. Using IAM, we create users, groups, roles, and policies, and we follow the principle of least privilege so users get only the permissions they need.
+In real projects, we mostly use IAM roles instead of access keys, especially for services like EC2, Lambda, Snowflake, or Redshift. IAM also supports MFA, policy conditions, and auditing through CloudTrail, which helps improve overall security and compliance.”
