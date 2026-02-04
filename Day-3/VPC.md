@@ -74,3 +74,12 @@ https://docs.aws.amazon.com/vpc/latest/userguide/vpc-example-private-subnets-nat
 ![image](https://github.com/iam-veeramalla/aws-devops-zero-to-hero/assets/43399466/89d8316e-7b70-4821-a6bf-67d1dcc4d2fb)
 
 
+✅ Advantages of VPC:
+======================
+1.Strong security: You can control traffic using Security Groups and NACLs.
+2.Network isolation: Your resources stay private and separated from others.
+3.Flexible design: You can create public and private subnets.
+4.Easy scaling: You can expand subnets and add resources easily.
+5.Hybrid connectivity: You can connect VPC to on-premise using VPN or Direct Connect.
+
+
