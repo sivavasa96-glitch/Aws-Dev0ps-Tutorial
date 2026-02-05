@@ -1,0 +1,106 @@
+In most present organizations, DevOps teams commonly use a standard set of tools across CI/CD, containers, IaC, cloud, monitoring, and security.
+
+
+most used DevOps tools list:
+==============================
+1) Source Code Management (SCM):
+-----------------------------------
+    1.itHub
+
+    2.GitLab
+
+    3.Bitbucket
+
+    4.Azure Repos
+
+2) CI/CD Tools:
+====================
+    1.Jenkins (most common)
+
+    2.GitHub Actions
+
+    3.GitLab CI
+
+    4.Azure DevOps Pipelines
+
+    5.Argo CD (GitOps)
+
+3) Build Tools:
+===============
+    1.Maven
+
+    2.Gradle
+
+    4.npm
+
+    5.SonarQube (code quality)
+
+4) Artifact / Package Repositories:
+======================================
+    1.Nexus
+
+    2.JFrog Artifactory
+
+    3.AWS ECR
+
+    4.Docker Hub (sometimes)
+
+5) Containers & Orchestration:
+================================
+    1.Docker
+
+    2.Kubernetes
+
+    3.EKS / AKS / GKE
+
+    4.Helm
+
+6) Infrastructure as Code (IaC):
+===============================
+    1.Terraform (most used)
+
+    2.CloudFormation
+
+    3.Ansible (for configuration)
+
+7) Configuration Management:
+=============================
+    1.Ansible
+
+    2.Chef
+
+    3.Puppet
+
+8) Monitoring & Logging:
+=========================
+    1.CloudWatch (AWS)
+
+    2.Prometheus + Grafana
+
+    3.ELK Stack (Elastic)
+
+    4.Splunk
+
+    5.Datadog
+
+    6.New Relic
+
+9) Security (DevSecOps):
+==========================
+    1.Trivy (container scanning)
+
+    2.Aqua / Prisma
+
+    3.Snyk
+
+    4.Vault (HashiCorp)
+
+10) Collaboration & Ticketing:
+==============================
+    1.Jira
+
+    2.Confluence
+
+    3.ServiceNow
+
+    4.Slack / MS Teams
