@@ -5,7 +5,7 @@ most used DevOps tools list:
 ==============================
 1) Source Code Management (SCM):
 -----------------------------------
-    1.itHub
+    1.GitHub
 
     2.GitLab
 
