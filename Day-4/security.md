@@ -24,3 +24,39 @@ AWS (Amazon Web Services) provides multiple layers of security to protect resour
 
 
 ![Screenshot 2023-06-29 at 12 14 32 AM](https://github.com/iam-veeramalla/aws-devops-zero-to-hero/assets/43399466/30bbc9e8-6502-438b-8adf-ece8b81edce9)
+
+
+What is Security Group? :
+===========================
+
+“Security Group is like a firewall for EC2 instance. It controls what traffic is allowed to come in and go out from the instance.”
+
+Key points:
+============
+
+    1.Works at instance level
+
+    2.It is stateful
+
+    3.We mostly use it to allow ports like 22, 80, 443
+
+✅ Example:
+Allow HTTP (80) from anywhere, and SSH (22) only from my IP.
+
+
+What is NACL (Network ACL)? 
+==========================
+
+“NACL is like a firewall for the subnet. It controls traffic entering and leaving the subnet.”
+
+Key points:
+============
+
+    1.Works at subnet level
+
+    2.It is stateless
+
+    3.We must add rules for both inbound and outbound
+
+✅ Example:
+Allow port 80 inbound and also allow response outbound.
