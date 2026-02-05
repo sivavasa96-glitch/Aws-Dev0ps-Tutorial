@@ -160,41 +160,43 @@ EC2 Security Best Practices:
 5.Disable public IP if not needed
 
 EC2 Components (what you need to launch an EC2):
+==================================================
 
-AMI (Amazon Machine Image) – This is the OS + pre-installed software template (like Ubuntu / Amazon Linux / Windows).
+        AMI (Amazon Machine Image) – This is the OS + pre-installed software template (like Ubuntu / Amazon Linux / Windows).
 
-Instance Type – Decides CPU, RAM, network performance (example: t3.micro, t3.medium).
+        Instance Type – Decides CPU, RAM, network performance (example: t3.micro, t3.medium).
 
-VPC + Subnet – Where the server will live (public subnet for internet apps, private subnet for internal).
+        VPC + Subnet – Where the server will live (public subnet for internet apps, private subnet for internal).
 
-Security Group – Firewall for the instance (allow SSH 22, HTTP 80, HTTPS 443).
+        Security Group – Firewall for the instance (allow SSH 22, HTTP 80, HTTPS 443).
 
-Key Pair – Used to login securely (SSH key for Linux, RDP password decryption for Windows).
+        Key Pair – Used to login securely (SSH key for Linux, RDP password decryption for Windows).
 
-Storage (EBS Volume) – Hard disk for the instance (root volume + optional extra volumes).
+        Storage (EBS Volume) – Hard disk for the instance (root volume + optional extra volumes).
 
-Elastic IP (Optional) – Fixed public IP if you don’t want the IP to change.
+        Elastic IP (Optional) – Fixed public IP if you don’t want the IP to change.
 
-IAM Role (Optional but best) – Gives EC2 permissions to access S3, CloudWatch, etc. without keys.
+        IAM Role (Optional but best) – Gives EC2 permissions to access S3, CloudWatch, etc. without keys.
 
-User Data (Optional) – Startup script to install apps automatically (like nginx, docker).
+        User Data (Optional) – Startup script to install apps automatically (like nginx, docker).
 
-Step-by-step: How EC2 is created and works (Human spoken)
+Step-by-step: How EC2 is created and works :
+=============================================
 
-“First I choose an AMI, like Amazon Linux or Ubuntu.”
+        “First I choose an AMI, like Amazon Linux or Ubuntu.”
 
-“Then I select the instance type based on CPU and RAM needs.”
+        “Then I select the instance type based on CPU and RAM needs.”
 
-“Next I pick the VPC and subnet—public subnet if it needs internet access.”
+        “Next I pick the VPC and subnet—public subnet if it needs internet access.”
 
-“After that I attach a security group to allow required ports like 22, 80, 443.”
+        “After that I attach a security group to allow required ports like 22, 80, 443.”
 
-“Then I select or create a key pair to securely login.”
+        “Then I select or create a key pair to securely login.”
 
-“I configure EBS storage, like 20GB or 50GB based on requirement.”
+        “I configure EBS storage, like 20GB or 50GB based on requirement.”
 
-“If needed, I attach an IAM role so the instance can access AWS services securely.”
+        “If needed, I attach an IAM role so the instance can access AWS services securely.”
 
-“Optionally I add user data to install packages automatically during boot.”
+        “Optionally I add user data to install packages automatically during boot.”
 
-“Finally I launch it, and then I connect using SSH (Linux) or RDP (Windows).”
+        “Finally I launch it, and then I connect using SSH (Linux) or RDP (Windows).”
