@@ -100,7 +100,7 @@ VPC Components (Main parts):
 
     6.Security Group (SG) – instance level firewall (allow/deny ports)
 
-    7.Network ACL (NACL) – subnet level firewall (stateless rules)
+    7.Network ACL( Network Access Control List (NACL) – subnet level firewall (stateless rules)
 
     8.Elastic IP – static public IP (used often for NAT / EC2)
 
