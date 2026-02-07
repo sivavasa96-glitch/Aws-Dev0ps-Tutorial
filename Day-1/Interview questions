@@ -1,5 +1,23 @@
 # Interview Questions
 
+What is IaaS and PaaS?:
+=========================
+
+IaaS (Infrastructure as a Service) means AWS gives you servers, storage, and networking, and you manage OS + application.
+Example: EC2, EBS, VPC.
+
+PaaS (Platform as a Service) means AWS gives you a ready platform to run your app, and you don’t manage OS or servers.
+Example: Elastic Beanstalk, AWS Lambda, RDS 
+
+✅ What is SaaS in AWS? :
+=========================
+
+“SaaS means Software as a Service.
+In SaaS, we directly use a software application over the internet, and we don’t manage servers, OS, or infrastructure.
+Everything is managed by the provider, and we just use the product.”
+
+
+
 What is Cloud? – Interview-ready explanation:
 ==============================================
 Cloud (Cloud Computing) means using computing resources over the internet instead of owning physical servers or data centers. These resources include servers, storage, databases, networking, and software, and you pay only for what you use.
