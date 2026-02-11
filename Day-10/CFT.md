@@ -36,8 +36,8 @@ why we ares use cft and cli in aws:
 AWS CloudFormation (CFT) and the AWS Command Line Interface (CLI) are used for different purposes and scenarios in managing AWS resources. The AWS CLI is used for quick, immediate tasks and automation through scripting, while AWS CloudFormation is used for defining, deploying, and managing entire cloud infrastructures in a repeatable and automated manner using Infrastructure as Code (IaC). 
 
 
-Template structure:
-===================
+Template structure for JSON:
+============================
 
     {
       "AWSTemplateFormatVersion" : "version date",
@@ -76,3 +76,37 @@ Template structure:
         set of outputs
       }
     }
+
+
+Template structure for YAML:
+==============================
+    ---
+AWSTemplateFormatVersion: version date
+
+Description:
+  String
+
+Metadata:
+  template metadata
+
+Parameters:
+  set of parameters
+
+Rules:
+  set of rules
+
+Mappings:
+  set of mappings
+
+Conditions:
+  set of conditions
+
+Transform:
+  set of transforms
+
+Resources:
+  set of resources
+
+Outputs:
+  set of outputs
+---
