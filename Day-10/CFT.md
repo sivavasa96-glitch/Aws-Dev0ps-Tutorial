@@ -1,0 +1,32 @@
+CLOUD FORMATION TEMPLATE:
+==========================
+
+CFT stands for CloudFormation Template. AWS CloudFormation is an Infrastructure as Code (IaC) service that allows you to model, provision, and manage AWS resources using a text file (a template). 
+
+How CloudFormation Works:
+=========================
+
+ It creating and configuring resources (like EC2 instances, S3 buckets, or databases) in the AWS Management Console, you use a template written in JSON or YAML format. This template acts as a blueprint, describing all the resources you need and their dependencies. 
+
+
+ What is the difference between AWS CFT and Terraform?:
+ ======================================================
+
+    1.CloudFormation is AWS native IaC tool, Terraform is third-party and multi-cloud.
+
+    2.CloudFormation supports only AWS services, Terraform supports AWS, Azure, GCP, Kubernetes, and many tools.
+
+    3.CloudFormation templates are written in YAML/JSON, Terraform uses HCL which is easier to read.
+
+    4.CloudFormation manages state inside AWS stacks, Terraform uses a separate state file.
+
+    5.Terraform provides a clear plan before applying changes, CloudFormation works through stack updates.
+
+    6.Terraform is preferred in many companies for multi-cloud and modular infrastructure.
+
+
+    Is CloudFormation JSON or YAML?:
+    ================================
+
+    “AWS CloudFormation supports both JSON and YAML, but YAML is more commonly used because it’s easier to read and maintain.”
+
