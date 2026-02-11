@@ -109,4 +109,4 @@ Resources:
 
 Outputs:
   set of outputs
----
+    ---
