@@ -110,3 +110,13 @@ Template structure for YAML:
     Outputs:
       set of outputs
 
+using the below link for the template creation
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/TemplateReference/introduction.html
+
+why we are using detch drift in cloud formation:
+================================================
+
+We use Detect Drift in CloudFormation to check whether the actual AWS resources are different from what we defined in the template.
+
+Sometimes, someone manually changes the resource from the AWS console — for example, modifying an S3 bucket setting or security group rule. But CloudFormation does not automatically know about that change. So the template and actual infrastructure become different. This situation is called drift.
