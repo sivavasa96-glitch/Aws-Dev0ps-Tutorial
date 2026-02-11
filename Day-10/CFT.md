@@ -30,3 +30,49 @@ Is CloudFormation JSON or YAML?:
 
     “AWS CloudFormation supports both JSON and YAML, but YAML is more commonly used because it’s easier to read and maintain.”
 
+why we ares use cft and cli in aws:
+===================================
+
+AWS CloudFormation (CFT) and the AWS Command Line Interface (CLI) are used for different purposes and scenarios in managing AWS resources. The AWS CLI is used for quick, immediate tasks and automation through scripting, while AWS CloudFormation is used for defining, deploying, and managing entire cloud infrastructures in a repeatable and automated manner using Infrastructure as Code (IaC). 
+
+
+Template structure:
+===================
+
+    {
+      "AWSTemplateFormatVersion" : "version date",
+
+      "Description" : "JSON string",
+
+      "Metadata" : {
+        template metadata
+      },
+
+      "Parameters" : {
+        set of parameters
+      },
+  
+      "Rules" : {
+        set of rules
+      },
+
+      "Mappings" : {
+        set of mappings
+      },
+
+      "Conditions" : {
+        set of conditions
+      },
+
+      "Transform" : {
+        set of transforms
+      },
+
+      "Resources" : {
+        set of resources
+      },
+  
+      "Outputs" : {
+        set of outputs
+      }
+    }
