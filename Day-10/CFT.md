@@ -80,33 +80,33 @@ Template structure for JSON:
 
 Template structure for YAML:
 ==============================
-    ---
-AWSTemplateFormatVersion: version date
 
-Description:
-  String
+    AWSTemplateFormatVersion: version date
 
-Metadata:
-  template metadata
+    Description:
+      String
 
-Parameters:
-  set of parameters
+    Metadata:
+      template metadata
 
-Rules:
-  set of rules
+    Parameters:
+      set of parameters
 
-Mappings:
-  set of mappings
+    Rules:
+      set of rules
 
-Conditions:
-  set of conditions
+    Mappings:
+      set of mappings
 
-Transform:
-  set of transforms
+    Conditions:
+      set of conditions
 
-Resources:
-  set of resources
+    Transform:
+      set of transforms
 
-Outputs:
-  set of outputs
-    ---
+    Resources:
+      set of resources
+
+    Outputs:
+      set of outputs
+
