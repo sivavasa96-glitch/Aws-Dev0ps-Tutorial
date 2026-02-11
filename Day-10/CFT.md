@@ -25,8 +25,8 @@ How CloudFormation Works:
     6.Terraform is preferred in many companies for multi-cloud and modular infrastructure.
 
 
-    Is CloudFormation JSON or YAML?:
-    ================================
+Is CloudFormation JSON or YAML?:
+================================
 
     “AWS CloudFormation supports both JSON and YAML, but YAML is more commonly used because it’s easier to read and maintain.”
 
