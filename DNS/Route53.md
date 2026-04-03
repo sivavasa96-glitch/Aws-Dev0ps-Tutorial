@@ -4,10 +4,10 @@ Beyond standard DNS, Route 53 is a powerful traffic management tool that can rou
 
 ![image](image.png)
 
-Hosted Zone: A container for records that define how you want to route traffic for a specific domain (e.g., example.com) and its subdomains.
+    Hosted Zone: A container for records that define how you want to route traffic for a specific domain (e.g., example.com) and its subdomains.
 
-Public Hosted Zone: Routes internet traffic to your resources.
-Private Hosted Zone: Routes internal traffic within an Amazon VPC.
+    Public Hosted Zone: Routes internet traffic to your resources.
+    Private Hosted Zone: Routes internal traffic within an Amazon VPC.
 
 Records (Resource Record Sets): The actual instructions in a hosted zone.
 
