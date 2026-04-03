@@ -11,10 +11,10 @@ Private Hosted Zone: Routes internal traffic within an Amazon VPC.
 
 Records (Resource Record Sets): The actual instructions in a hosted zone.
 
-A Record: Points a hostname to an IPv4 address.
-AAAA Record: Points a hostname to an IPv6 address.
-CNAME Record: Points a hostname to another hostname.
-Alias Record: An AWS-specific pointer that maps a hostname to an AWS resource (like an ELB or S3 bucket) for free and with better performance than CNAME.
+    A Record: Points a hostname to an IPv4 address.
+    AAAA Record: Points a hostname to an IPv6 address.
+    CNAME Record: Points a hostname to another hostname.
+    Alias Record: An AWS-specific pointer that maps a hostname to an AWS resource (like an ELB or S3 bucket) for free and with better performance than CNAME.
 
 
 ![image](image-1.png)
