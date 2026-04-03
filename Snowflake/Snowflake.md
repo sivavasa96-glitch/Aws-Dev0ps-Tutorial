@@ -42,8 +42,71 @@ SaaS means Software as a Service.
 So in short:
 ===============
 
-IaaS = we manage more things
-PaaS = we manage only application
-SaaS = we just use the software
+    IaaS = we manage more things
+    PaaS = we manage only application
+    SaaS = we just use the software
 
 ![image](image.png)
+
+![image1](image-1.png)
+
+![image2](image-2.png)
+
+1) Shared-Disk Architecture Meaning:
+
+    Multiple compute nodes are there, but all nodes share the same storage (single disk / single memory storage).
+
+Example in diagram:
+===================
+
+    Node 1, Node 2, Node 3
+    ➡️ all are connected to one common storage.
+
+2) Shared-Nothing Architecture Meaning:
+
+    Each node has its own storage and works independently.
+
+Example in diagram:
+==================
+
+    Node 1 has its own storage
+    Node 2 has its own storage
+    Node 3 has its own storage
+
+Advantage:
+==========
+
+    Very good for scalability and performance because no one is sharing same disk.
+
+🔥 Interview Spoken Answer (Best)
+
+    "Snowflake follows a multi-cluster shared data architecture. It separates compute and storage. Storage is centralized and shared, but compute clusters are independent, so multiple warehouses can query the same data without impacting each other. This gives high scalability, performance, and concurrency."
+
+![image3](image-3.png)
+
+![images4](image-4.png)
+
+✅ What is a Virtual Warehouse in Snowflake?
+
+    A Virtual Warehouse in Snowflake is basically a compute cluster.
+
+    It provides the CPU, RAM, and temporary local storage needed to run:
+
+    SQL queries
+    Data loading (COPY)
+    Transformations (ETL/ELT)
+
+👉 It is not a storage place, it is only for processing.
+
+✅ Why Virtual Warehouse is useful?
+
+    Because:
+
+    We can create multiple warehouses
+    Different teams can run queries without affecting each other
+    We can scale up or down anytime
+    We can pause it to save cost
+
+🎯 Interview Answer (Best Spoken)
+
+    "A virtual warehouse in Snowflake is a compute resource that provides CPU, memory, and temporary storage to execute queries and load data. It is independent of storage, so multiple warehouses can access the same data without impacting each other. We can scale it up or down based on workload and also auto-suspend to reduce cost."
